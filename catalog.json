@@ -374,17 +374,6 @@
     "release_date": "2026-01"
   },
   {
-    "name": "Kimi K2 Base",
-    "family": "kimi",
-    "params_b": 0.0,
-    "layers": 61,
-    "num_q_heads": 64,
-    "num_kv_heads": 64,
-    "head_dim": 112,
-    "default_ctx_len": 131072,
-    "release_date": "2026-01"
-  },
-  {
     "name": "Moonlight 16B A3B",
     "family": "kimi",
     "params_b": 15.96,
@@ -440,17 +429,6 @@
     "release_date": "2025-12"
   },
   {
-    "name": "DeepSeek V3.2 Speciale",
-    "family": "deepseek",
-    "params_b": 0.0,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-12"
-  },
-  {
     "name": "DeepSeek V3.2",
     "family": "deepseek",
     "params_b": 685.397,
@@ -503,28 +481,6 @@
     "num_kv_heads": 8,
     "head_dim": 128,
     "default_ctx_len": 32768,
-    "release_date": "2025-11"
-  },
-  {
-    "name": "DeepSeek Math V2",
-    "family": "deepseek",
-    "params_b": 0.0,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-11"
-  },
-  {
-    "name": "DeepSeek V3.2 Exp",
-    "family": "deepseek",
-    "params_b": 0.0,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
     "release_date": "2025-11"
   },
   {
@@ -605,28 +561,6 @@
     "release_date": "2025-09"
   },
   {
-    "name": "DeepSeek V3.1 Terminus",
-    "family": "deepseek",
-    "params_b": 0.0,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-09"
-  },
-  {
-    "name": "DeepSeek V3.1",
-    "family": "deepseek",
-    "params_b": 0.0,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-09"
-  },
-  {
     "name": "GLM 4.6",
     "family": "glm",
     "params_b": 356.786,
@@ -636,17 +570,6 @@
     "head_dim": 128,
     "default_ctx_len": 202752,
     "release_date": "2025-09"
-  },
-  {
-    "name": "DeepSeek V3.1 Base",
-    "family": "deepseek",
-    "params_b": 0.0,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-08"
   },
   {
     "name": "GLM 4.5",
@@ -663,17 +586,6 @@
     "name": "GLM 4.5 Air",
     "family": "glm",
     "params_b": 110.469,
-    "layers": 46,
-    "num_q_heads": 96,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 131072,
-    "release_date": "2025-08"
-  },
-  {
-    "name": "GLM 4.5 Air Base",
-    "family": "glm",
-    "params_b": 0.0,
     "layers": 46,
     "num_q_heads": 96,
     "num_kv_heads": 8,
@@ -734,72 +646,6 @@
     "num_kv_heads": 8,
     "head_dim": 128,
     "default_ctx_len": 32768,
-    "release_date": "2025-07"
-  },
-  {
-    "name": "MiniMax M1 40k hf",
-    "family": "minimax",
-    "params_b": 0.0,
-    "layers": 80,
-    "num_q_heads": 64,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 10240000,
-    "release_date": "2025-07"
-  },
-  {
-    "name": "MiniMax Text 01 hf",
-    "family": "minimax",
-    "params_b": 0.0,
-    "layers": 80,
-    "num_q_heads": 64,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 10240000,
-    "release_date": "2025-07"
-  },
-  {
-    "name": "MiniMax M1 80k hf",
-    "family": "minimax",
-    "params_b": 0.0,
-    "layers": 80,
-    "num_q_heads": 64,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 10240000,
-    "release_date": "2025-07"
-  },
-  {
-    "name": "MiniMax M1 80k",
-    "family": "minimax",
-    "params_b": 0.0,
-    "layers": 80,
-    "num_q_heads": 64,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 10240000,
-    "release_date": "2025-07"
-  },
-  {
-    "name": "MiniMax M1 40k",
-    "family": "minimax",
-    "params_b": 0.0,
-    "layers": 80,
-    "num_q_heads": 64,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 10240000,
-    "release_date": "2025-07"
-  },
-  {
-    "name": "MiniMax Text 01",
-    "family": "minimax",
-    "params_b": 0.0,
-    "layers": 80,
-    "num_q_heads": 64,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 10240000,
     "release_date": "2025-07"
   },
   {
@@ -889,16 +735,5 @@
     "head_dim": 128,
     "default_ctx_len": 32768,
     "release_date": "2025-04"
-  },
-  {
-    "name": "DeepSeek R1 Zero",
-    "family": "deepseek",
-    "params_b": 0.0,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-03"
   }
 ]
