@@ -35,62 +35,7 @@
   {
     "name": "LFM2.5 350M",
     "family": "liquid",
-    "params_b": 0.0,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-04"
-  },
-  {
-    "name": "LFM2.5 350M MLX 8bit",
-    "family": "liquid",
-    "params_b": 8.0,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-04"
-  },
-  {
-    "name": "LFM2.5 350M MLX 6bit",
-    "family": "liquid",
-    "params_b": 6.0,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-04"
-  },
-  {
-    "name": "LFM2.5 350M MLX 5bit",
-    "family": "liquid",
-    "params_b": 5.0,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-04"
-  },
-  {
-    "name": "LFM2.5 350M MLX 4bit",
-    "family": "liquid",
-    "params_b": 4.0,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-04"
-  },
-  {
-    "name": "LFM2.5 350M MLX bf16",
-    "family": "liquid",
-    "params_b": 0.0,
+    "params_b": 0.35,
     "layers": 16,
     "num_q_heads": 16,
     "num_kv_heads": 8,
@@ -107,17 +52,6 @@
     "num_kv_heads": 8,
     "head_dim": 128,
     "default_ctx_len": 196608,
-    "release_date": "2026-03"
-  },
-  {
-    "name": "LFM2.5 350M ONNX",
-    "family": "liquid",
-    "params_b": 0.0,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
     "release_date": "2026-03"
   },
   {
@@ -145,7 +79,7 @@
   {
     "name": "LFM2 350M Math",
     "family": "liquid",
-    "params_b": 0.0,
+    "params_b": 0.35,
     "layers": 16,
     "num_q_heads": 16,
     "num_kv_heads": 8,
@@ -156,7 +90,7 @@
   {
     "name": "LFM2.5 350M Base",
     "family": "liquid",
-    "params_b": 0.0,
+    "params_b": 0.35,
     "layers": 16,
     "num_q_heads": 16,
     "num_kv_heads": 8,
@@ -167,9 +101,75 @@
   {
     "name": "LFM2 350M PII Extract JP",
     "family": "liquid",
-    "params_b": 0.0,
+    "params_b": 0.35,
     "layers": 16,
     "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-03"
+  },
+  {
+    "name": "LFM2 1.2B RAG",
+    "family": "liquid",
+    "params_b": 1.2,
+    "layers": 16,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-03"
+  },
+  {
+    "name": "LFM2 350M Extract",
+    "family": "liquid",
+    "params_b": 0.35,
+    "layers": 16,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-03"
+  },
+  {
+    "name": "LFM2.5 1.2B JP",
+    "family": "liquid",
+    "params_b": 1.2,
+    "layers": 16,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-03"
+  },
+  {
+    "name": "LFM2 1.2B Extract",
+    "family": "liquid",
+    "params_b": 1.2,
+    "layers": 16,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-03"
+  },
+  {
+    "name": "LFM2 2.6B",
+    "family": "liquid",
+    "params_b": 2.6,
+    "layers": 30,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-03"
+  },
+  {
+    "name": "LFM2 700M",
+    "family": "liquid",
+    "params_b": 0.7,
+    "layers": 16,
+    "num_q_heads": 24,
     "num_kv_heads": 8,
     "head_dim": 64,
     "default_ctx_len": 128000,
