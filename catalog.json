@@ -1,5 +1,16 @@
 [
   {
+    "name": "Qwen3.6 35B A3B",
+    "family": "qwen",
+    "params_b": 35.952,
+    "layers": 40,
+    "num_q_heads": 16,
+    "num_kv_heads": 2,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-04"
+  },
+  {
     "name": "GLM 5.1",
     "family": "glm",
     "params_b": 753.864,
@@ -371,17 +382,6 @@
     "num_kv_heads": 32,
     "head_dim": 128,
     "default_ctx_len": 1048576,
-    "release_date": "2026-01"
-  },
-  {
-    "name": "Qwen3 Coder Next",
-    "family": "qwen",
-    "params_b": 79.674,
-    "layers": 48,
-    "num_q_heads": 16,
-    "num_kv_heads": 2,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
     "release_date": "2026-01"
   },
   {
