@@ -29,7 +29,7 @@
     "num_q_heads": 48,
     "num_kv_heads": 8,
     "head_dim": 128,
-    "default_ctx_len": 196608,
+    "default_ctx_len": 204800,
     "release_date": "2026-04"
   },
   {
