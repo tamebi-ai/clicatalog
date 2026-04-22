@@ -1,5 +1,16 @@
 [
   {
+    "name": "Qwen3.6 27B",
+    "family": "qwen",
+    "params_b": 27.781,
+    "layers": 64,
+    "num_q_heads": 24,
+    "num_kv_heads": 4,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-04"
+  },
+  {
     "name": "Qwen3.6 35B A3B",
     "family": "qwen",
     "params_b": 35.952,
@@ -33,6 +44,17 @@
     "release_date": "2026-04"
   },
   {
+    "name": "Kimi K2.6",
+    "family": "kimi",
+    "params_b": 1058.589,
+    "layers": 61,
+    "num_q_heads": 64,
+    "num_kv_heads": 64,
+    "head_dim": 112,
+    "default_ctx_len": 262144,
+    "release_date": "2026-04"
+  },
+  {
     "name": "LFM2.5 VL 450M",
     "family": "liquid",
     "params_b": 0.449,
@@ -41,6 +63,105 @@
     "num_kv_heads": 8,
     "head_dim": 64,
     "default_ctx_len": 128000,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "BAR 2x7B Tool Use",
+    "family": "olmo",
+    "params_b": 11.627,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 32,
+    "head_dim": 128,
+    "default_ctx_len": 65536,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "BAR 2x7B Code",
+    "family": "olmo",
+    "params_b": 0.001,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 32,
+    "head_dim": 128,
+    "default_ctx_len": 65536,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "BAR 2x7B Code SFT",
+    "family": "olmo",
+    "params_b": 11.627,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 32,
+    "head_dim": 128,
+    "default_ctx_len": 65536,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "BAR 2x7B Safety",
+    "family": "olmo",
+    "params_b": 11.627,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 32,
+    "head_dim": 128,
+    "default_ctx_len": 65536,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "BAR 2x7B Math SFT",
+    "family": "olmo",
+    "params_b": 11.627,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 32,
+    "head_dim": 128,
+    "default_ctx_len": 65536,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "BAR 2x7B Base",
+    "family": "olmo",
+    "params_b": 11.627,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 32,
+    "head_dim": 128,
+    "default_ctx_len": 65536,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "BAR 2x7B Math",
+    "family": "olmo",
+    "params_b": 0.001,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 32,
+    "head_dim": 128,
+    "default_ctx_len": 65536,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "BAR 5x7B",
+    "family": "olmo",
+    "params_b": 24.613,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 32,
+    "head_dim": 128,
+    "default_ctx_len": 65536,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "BAR 7B",
+    "family": "olmo",
+    "params_b": 7.298,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 32,
+    "head_dim": 128,
+    "default_ctx_len": 65536,
     "release_date": "2026-04"
   },
   {
@@ -162,28 +283,6 @@
     "num_kv_heads": 8,
     "head_dim": 64,
     "default_ctx_len": 128000,
-    "release_date": "2026-03"
-  },
-  {
-    "name": "MolmoWeb 8B",
-    "family": "olmo",
-    "params_b": 8.662,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 10240,
-    "release_date": "2026-03"
-  },
-  {
-    "name": "MolmoWeb 4B",
-    "family": "olmo",
-    "params_b": 4.851,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 10240,
     "release_date": "2026-03"
   },
   {
@@ -324,17 +423,6 @@
     "params_b": 403.398,
     "layers": 60,
     "num_q_heads": 32,
-    "num_kv_heads": 2,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
-    "release_date": "2026-02"
-  },
-  {
-    "name": "Qwen3 Coder Next Base",
-    "family": "qwen",
-    "params_b": 79.674,
-    "layers": 48,
-    "num_q_heads": 16,
     "num_kv_heads": 2,
     "head_dim": 256,
     "default_ctx_len": 262144,
