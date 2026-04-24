@@ -22,6 +22,50 @@
     "release_date": "2026-04"
   },
   {
+    "name": "DeepSeek V4 Pro",
+    "family": "deepseek",
+    "params_b": 861.608,
+    "layers": 61,
+    "num_q_heads": 128,
+    "num_kv_heads": 1,
+    "head_dim": 512,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "DeepSeek V4 Pro Base",
+    "family": "deepseek",
+    "params_b": 1600.79,
+    "layers": 61,
+    "num_q_heads": 128,
+    "num_kv_heads": 1,
+    "head_dim": 512,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "DeepSeek V4 Flash",
+    "family": "deepseek",
+    "params_b": 158.069,
+    "layers": 43,
+    "num_q_heads": 64,
+    "num_kv_heads": 1,
+    "head_dim": 512,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "DeepSeek V4 Flash Base",
+    "family": "deepseek",
+    "params_b": 292.021,
+    "layers": 43,
+    "num_q_heads": 64,
+    "num_kv_heads": 1,
+    "head_dim": 512,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-04"
+  },
+  {
     "name": "GLM 5.1",
     "family": "glm",
     "params_b": 753.864,
@@ -162,6 +206,72 @@
     "num_kv_heads": 32,
     "head_dim": 128,
     "default_ctx_len": 65536,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "intent aware lfqa llama3 8b intent explicit",
+    "family": "olmo",
+    "params_b": 8.0,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 131072,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "intent aware lfqa llama3 8b intent implicit",
+    "family": "olmo",
+    "params_b": 8.0,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 131072,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "intent aware lfqa llama3 8b baseline",
+    "family": "olmo",
+    "params_b": 8.0,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 131072,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "intent aware lfqa llama3 8b multiview",
+    "family": "olmo",
+    "params_b": 8.0,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 131072,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "intent aware lfqa qwen3 8b intent implicit",
+    "family": "olmo",
+    "params_b": 8.0,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 40960,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "intent aware lfqa qwen3 8b baseline",
+    "family": "olmo",
+    "params_b": 8.0,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 40960,
     "release_date": "2026-04"
   },
   {
@@ -924,17 +1034,6 @@
     "release_date": "2025-05"
   },
   {
-    "name": "DeepSeek R1 0528",
-    "family": "deepseek",
-    "params_b": 684.531,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-05"
-  },
-  {
     "name": "SynLogic Mix 3 32B",
     "family": "minimax",
     "params_b": 32.764,
@@ -957,28 +1056,6 @@
     "release_date": "2025-05"
   },
   {
-    "name": "DeepSeek Prover V2 7B",
-    "family": "deepseek",
-    "params_b": 6.91,
-    "layers": 30,
-    "num_q_heads": 32,
-    "num_kv_heads": 32,
-    "head_dim": 128,
-    "default_ctx_len": 65536,
-    "release_date": "2025-04"
-  },
-  {
-    "name": "DeepSeek Prover V2 671B",
-    "family": "deepseek",
-    "params_b": 671.0,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-04"
-  },
-  {
     "name": "Kimi VL A3B Thinking",
     "family": "kimi",
     "params_b": 16.408,
@@ -999,17 +1076,6 @@
     "head_dim": 128,
     "default_ctx_len": 131072,
     "release_date": "2025-04"
-  },
-  {
-    "name": "DeepSeek V3 0324",
-    "family": "deepseek",
-    "params_b": 684.531,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-03"
   },
   {
     "name": "Moonlight 16B A3B Instruct",
