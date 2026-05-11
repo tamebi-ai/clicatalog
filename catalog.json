@@ -1,5 +1,137 @@
 [
   {
+    "name": "EMO",
+    "family": "olmo",
+    "params_b": 13.569,
+    "layers": 16,
+    "num_q_heads": 16,
+    "num_kv_heads": 16,
+    "head_dim": 128,
+    "default_ctx_len": 4096,
+    "release_date": "2026-05"
+  },
+  {
+    "name": "StdMoE 1b14b 1T EmoAnnealed",
+    "family": "olmo",
+    "params_b": 13.569,
+    "layers": 16,
+    "num_q_heads": 16,
+    "num_kv_heads": 16,
+    "head_dim": 128,
+    "default_ctx_len": 4096,
+    "release_date": "2026-05"
+  },
+  {
+    "name": "StdMoE 1b14b 1T Preanneal",
+    "family": "olmo",
+    "params_b": 13.569,
+    "layers": 16,
+    "num_q_heads": 16,
+    "num_kv_heads": 16,
+    "head_dim": 128,
+    "default_ctx_len": 4096,
+    "release_date": "2026-05"
+  },
+  {
+    "name": "MolmoAct2 Think LIBERO",
+    "family": "olmo",
+    "params_b": 5.491,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 16384,
+    "release_date": "2026-05"
+  },
+  {
+    "name": "MolmoAct2 LIBERO",
+    "family": "olmo",
+    "params_b": 5.485,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 16384,
+    "release_date": "2026-05"
+  },
+  {
+    "name": "MolmoAct2 SO100 101",
+    "family": "olmo",
+    "params_b": 5.485,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 16384,
+    "release_date": "2026-05"
+  },
+  {
+    "name": "MolmoAct2 BimanualYAM",
+    "family": "olmo",
+    "params_b": 5.485,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 16384,
+    "release_date": "2026-05"
+  },
+  {
+    "name": "MolmoAct2 DROID",
+    "family": "olmo",
+    "params_b": 5.485,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 16384,
+    "release_date": "2026-05"
+  },
+  {
+    "name": "MolmoAct2 Pretrain",
+    "family": "olmo",
+    "params_b": 4.865,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 16384,
+    "release_date": "2026-05"
+  },
+  {
+    "name": "MolmoAct2 Think",
+    "family": "olmo",
+    "params_b": 5.491,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 16384,
+    "release_date": "2026-05"
+  },
+  {
+    "name": "MolmoAct2",
+    "family": "olmo",
+    "params_b": 5.485,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 16384,
+    "release_date": "2026-05"
+  },
+  {
+    "name": "Molmo2 ER",
+    "family": "olmo",
+    "params_b": 4.851,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 16384,
+    "release_date": "2026-05"
+  },
+  {
     "name": "Mistral Medium 3.5 128B EAGLE",
     "family": "mistral",
     "params_b": 128.0,
@@ -8,6 +140,50 @@
     "num_kv_heads": 8,
     "head_dim": 128,
     "default_ctx_len": 262144,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "gemma 4 26B A4B it assistant",
+    "family": "gemma",
+    "params_b": 0.42,
+    "layers": 4,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "gemma 4 31B it assistant",
+    "family": "gemma",
+    "params_b": 0.47,
+    "layers": 4,
+    "num_q_heads": 32,
+    "num_kv_heads": 16,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "gemma 4 E4B it assistant",
+    "family": "gemma",
+    "params_b": 0.079,
+    "layers": 4,
+    "num_q_heads": 4,
+    "num_kv_heads": 2,
+    "head_dim": 256,
+    "default_ctx_len": 131072,
+    "release_date": "2026-04"
+  },
+  {
+    "name": "gemma 4 E2B it assistant",
+    "family": "gemma",
+    "params_b": 0.078,
+    "layers": 4,
+    "num_q_heads": 4,
+    "num_kv_heads": 1,
+    "head_dim": 256,
+    "default_ctx_len": 131072,
     "release_date": "2026-04"
   },
   {
@@ -173,50 +349,6 @@
     "num_kv_heads": 8,
     "head_dim": 256,
     "default_ctx_len": 262144,
-    "release_date": "2026-03"
-  },
-  {
-    "name": "gemma 4 31B it",
-    "family": "gemma",
-    "params_b": 32.682,
-    "layers": 60,
-    "num_q_heads": 32,
-    "num_kv_heads": 16,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
-    "release_date": "2026-03"
-  },
-  {
-    "name": "gemma 4 E2B",
-    "family": "gemma",
-    "params_b": 5.123,
-    "layers": 35,
-    "num_q_heads": 8,
-    "num_kv_heads": 1,
-    "head_dim": 256,
-    "default_ctx_len": 131072,
-    "release_date": "2026-03"
-  },
-  {
-    "name": "gemma 4 E2B it",
-    "family": "gemma",
-    "params_b": 5.123,
-    "layers": 35,
-    "num_q_heads": 8,
-    "num_kv_heads": 1,
-    "head_dim": 256,
-    "default_ctx_len": 131072,
-    "release_date": "2026-03"
-  },
-  {
-    "name": "gemma 4 E4B",
-    "family": "gemma",
-    "params_b": 7.996,
-    "layers": 42,
-    "num_q_heads": 8,
-    "num_kv_heads": 2,
-    "head_dim": 256,
-    "default_ctx_len": 131072,
     "release_date": "2026-03"
   },
   {
@@ -528,6 +660,17 @@
     "release_date": "2025-11"
   },
   {
+    "name": "DeepSeek Math V2",
+    "family": "deepseek",
+    "params_b": 685.397,
+    "layers": 61,
+    "num_q_heads": 128,
+    "num_kv_heads": 128,
+    "head_dim": 56,
+    "default_ctx_len": 163840,
+    "release_date": "2025-11"
+  },
+  {
     "name": "WebVIA Agent",
     "family": "glm",
     "params_b": 10.293,
@@ -638,9 +781,31 @@
     "release_date": "2025-10"
   },
   {
+    "name": "DeepSeek V3.2 Exp",
+    "family": "deepseek",
+    "params_b": 685.397,
+    "layers": 61,
+    "num_q_heads": 128,
+    "num_kv_heads": 128,
+    "head_dim": 56,
+    "default_ctx_len": 163840,
+    "release_date": "2025-09"
+  },
+  {
     "name": "DeepSeek V3.2 Exp Base",
     "family": "deepseek",
     "params_b": 685.397,
+    "layers": 61,
+    "num_q_heads": 128,
+    "num_kv_heads": 128,
+    "head_dim": 56,
+    "default_ctx_len": 163840,
+    "release_date": "2025-09"
+  },
+  {
+    "name": "DeepSeek V3.1 Terminus",
+    "family": "deepseek",
+    "params_b": 684.531,
     "layers": 61,
     "num_q_heads": 128,
     "num_kv_heads": 128,
@@ -658,6 +823,28 @@
     "head_dim": 112,
     "default_ctx_len": 262144,
     "release_date": "2025-09"
+  },
+  {
+    "name": "DeepSeek V3.1",
+    "family": "deepseek",
+    "params_b": 684.531,
+    "layers": 61,
+    "num_q_heads": 128,
+    "num_kv_heads": 128,
+    "head_dim": 56,
+    "default_ctx_len": 163840,
+    "release_date": "2025-08"
+  },
+  {
+    "name": "DeepSeek V3.1 Base",
+    "family": "deepseek",
+    "params_b": 684.531,
+    "layers": 61,
+    "num_q_heads": 128,
+    "num_kv_heads": 128,
+    "head_dim": 56,
+    "default_ctx_len": 163840,
+    "release_date": "2025-08"
   },
   {
     "name": "Kimi K2 Instruct",
