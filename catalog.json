@@ -759,28 +759,6 @@
     "release_date": "2025-10"
   },
   {
-    "name": "LFM2 VL 3B",
-    "family": "liquid",
-    "params_b": 2.999,
-    "layers": 30,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2025-10"
-  },
-  {
-    "name": "LFM2 8B A1B",
-    "family": "liquid",
-    "params_b": 8.34,
-    "layers": 24,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2025-10"
-  },
-  {
     "name": "DeepSeek V3.2 Exp",
     "family": "deepseek",
     "params_b": 685.397,
