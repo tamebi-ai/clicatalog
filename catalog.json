@@ -110,28 +110,6 @@
     "release_date": "2026-05"
   },
   {
-    "name": "MolmoAct2",
-    "family": "olmo",
-    "params_b": 5.485,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 16384,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "Molmo2 ER",
-    "family": "olmo",
-    "params_b": 4.851,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 16384,
-    "release_date": "2026-05"
-  },
-  {
     "name": "Mistral Medium 3.5 128B EAGLE",
     "family": "mistral",
     "params_b": 128.0,
@@ -426,6 +404,17 @@
     "num_kv_heads": 10,
     "head_dim": 128,
     "default_ctx_len": 8192,
+    "release_date": "2026-01"
+  },
+  {
+    "name": "GLM OCR",
+    "family": "glm",
+    "params_b": 1.325,
+    "layers": 16,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 131072,
     "release_date": "2026-01"
   },
   {
@@ -825,6 +814,28 @@
     "release_date": "2025-08"
   },
   {
+    "name": "MiniMax M1 40k hf",
+    "family": "minimax",
+    "params_b": 456.09,
+    "layers": 80,
+    "num_q_heads": 64,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 10240000,
+    "release_date": "2025-07"
+  },
+  {
+    "name": "MiniMax M1 80k hf",
+    "family": "minimax",
+    "params_b": 456.09,
+    "layers": 80,
+    "num_q_heads": 64,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 10240000,
+    "release_date": "2025-07"
+  },
+  {
     "name": "Kimi K2 Instruct",
     "family": "kimi",
     "params_b": 1026.471,
@@ -834,6 +845,39 @@
     "head_dim": 112,
     "default_ctx_len": 131072,
     "release_date": "2025-07"
+  },
+  {
+    "name": "MiniMax M1 80k",
+    "family": "minimax",
+    "params_b": 456.09,
+    "layers": 80,
+    "num_q_heads": 64,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 10240000,
+    "release_date": "2025-06"
+  },
+  {
+    "name": "MiniMax M1 40k",
+    "family": "minimax",
+    "params_b": 456.09,
+    "layers": 80,
+    "num_q_heads": 64,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 10240000,
+    "release_date": "2025-06"
+  },
+  {
+    "name": "MiniMax Text 01 hf",
+    "family": "minimax",
+    "params_b": 456.09,
+    "layers": 80,
+    "num_q_heads": 64,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 10240000,
+    "release_date": "2025-06"
   },
   {
     "name": "SynLogic 7B",
