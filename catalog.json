@@ -1,5 +1,38 @@
 [
   {
+    "name": "Qwen Image Bench",
+    "family": "qwen",
+    "params_b": 27.357,
+    "layers": 64,
+    "num_q_heads": 24,
+    "num_kv_heads": 4,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-05"
+  },
+  {
+    "name": "LFM2.5 8B A1B Base",
+    "family": "liquid",
+    "params_b": 8.468,
+    "layers": 24,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-05"
+  },
+  {
+    "name": "LFM2.5 8B A1B",
+    "family": "liquid",
+    "params_b": 8.468,
+    "layers": 24,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-05"
+  },
+  {
     "name": "EMO",
     "family": "olmo",
     "params_b": 13.569,
@@ -162,17 +195,6 @@
     "num_kv_heads": 1,
     "head_dim": 256,
     "default_ctx_len": 131072,
-    "release_date": "2026-04"
-  },
-  {
-    "name": "Qwen3.6 27B",
-    "family": "qwen",
-    "params_b": 27.781,
-    "layers": 64,
-    "num_q_heads": 24,
-    "num_kv_heads": 4,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
     "release_date": "2026-04"
   },
   {
@@ -550,6 +572,17 @@
     "release_date": "2025-12"
   },
   {
+    "name": "GLM 4.6V",
+    "family": "glm",
+    "params_b": 107.711,
+    "layers": 46,
+    "num_q_heads": 96,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 131072,
+    "release_date": "2025-12"
+  },
+  {
     "name": "GLM 4.6V Flash",
     "family": "glm",
     "params_b": 10.293,
@@ -649,6 +682,17 @@
     "release_date": "2025-11"
   },
   {
+    "name": "DeepSeek V3.2 Speciale",
+    "family": "deepseek",
+    "params_b": 685.397,
+    "layers": 61,
+    "num_q_heads": 128,
+    "num_kv_heads": 128,
+    "head_dim": 56,
+    "default_ctx_len": 163840,
+    "release_date": "2025-11"
+  },
+  {
     "name": "DeepSeek Math V2",
     "family": "deepseek",
     "params_b": 685.397,
@@ -684,7 +728,7 @@
   {
     "name": "Ministral 3 3B Instruct 2512",
     "family": "mistral",
-    "params_b": 3.0,
+    "params_b": 3.849,
     "layers": 26,
     "num_q_heads": 32,
     "num_kv_heads": 8,
@@ -706,7 +750,7 @@
   {
     "name": "Ministral 3 14B Instruct 2512",
     "family": "mistral",
-    "params_b": 14.0,
+    "params_b": 13.945,
     "layers": 40,
     "num_q_heads": 32,
     "num_kv_heads": 8,
@@ -734,17 +778,6 @@
     "num_kv_heads": 8,
     "head_dim": 128,
     "default_ctx_len": 196608,
-    "release_date": "2025-10"
-  },
-  {
-    "name": "LFM2 ColBERT 350M",
-    "family": "liquid",
-    "params_b": 0.353,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
     "release_date": "2025-10"
   },
   {
@@ -837,6 +870,17 @@
   },
   {
     "name": "Kimi K2 Instruct",
+    "family": "kimi",
+    "params_b": 1026.471,
+    "layers": 61,
+    "num_q_heads": 64,
+    "num_kv_heads": 64,
+    "head_dim": 112,
+    "default_ctx_len": 131072,
+    "release_date": "2025-07"
+  },
+  {
+    "name": "Kimi K2 Base",
     "family": "kimi",
     "params_b": 1026.471,
     "layers": 61,
