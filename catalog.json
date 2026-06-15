@@ -1,5 +1,16 @@
 [
   {
+    "name": "diffusiongemma 26B A4B it",
+    "family": "gemma",
+    "params_b": 25.824,
+    "layers": 30,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
     "name": "gemma 4 12B it qat w4a16 ct",
     "family": "gemma",
     "params_b": 13.307,
@@ -110,6 +121,39 @@
     "release_date": "2026-06"
   },
   {
+    "name": "MiniMax M3 MXFP8",
+    "family": "minimax",
+    "params_b": 440.28,
+    "layers": 60,
+    "num_q_heads": 64,
+    "num_kv_heads": 4,
+    "head_dim": 128,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "MiniMax M3",
+    "family": "minimax",
+    "params_b": 427.04,
+    "layers": 60,
+    "num_q_heads": 64,
+    "num_kv_heads": 4,
+    "head_dim": 128,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "Kimi K2.7 Code",
+    "family": "kimi",
+    "params_b": 1058.589,
+    "layers": 61,
+    "num_q_heads": 64,
+    "num_kv_heads": 64,
+    "head_dim": 112,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
     "name": "gemma 4 31B it qat q4 0 unquantized assistant",
     "family": "gemma",
     "params_b": 0.47,
@@ -138,17 +182,6 @@
     "layers": 4,
     "num_q_heads": 4,
     "num_kv_heads": 2,
-    "head_dim": 256,
-    "default_ctx_len": 131072,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "gemma 4 E2B it qat q4 0 unquantized assistant",
-    "family": "gemma",
-    "params_b": 0.078,
-    "layers": 4,
-    "num_q_heads": 4,
-    "num_kv_heads": 1,
     "head_dim": 256,
     "default_ctx_len": 131072,
     "release_date": "2026-05"
@@ -311,17 +344,6 @@
     "name": "MolmoAct2 Pretrain",
     "family": "olmo",
     "params_b": 4.865,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 16384,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "MolmoAct2 Think",
-    "family": "olmo",
-    "params_b": 5.491,
     "layers": 36,
     "num_q_heads": 32,
     "num_kv_heads": 8,
@@ -1034,28 +1056,6 @@
     "release_date": "2025-05"
   },
   {
-    "name": "SynLogic Mix 3 32B",
-    "family": "minimax",
-    "params_b": 32.764,
-    "layers": 64,
-    "num_q_heads": 40,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 131072,
-    "release_date": "2025-05"
-  },
-  {
-    "name": "SynLogic 32B",
-    "family": "minimax",
-    "params_b": 32.764,
-    "layers": 64,
-    "num_q_heads": 40,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 131072,
-    "release_date": "2025-05"
-  },
-  {
     "name": "Kimi VL A3B Thinking",
     "family": "kimi",
     "params_b": 16.408,
@@ -1079,17 +1079,6 @@
   },
   {
     "name": "Moonlight 16B A3B Instruct",
-    "family": "kimi",
-    "params_b": 15.96,
-    "layers": 27,
-    "num_q_heads": 16,
-    "num_kv_heads": 16,
-    "head_dim": 128,
-    "default_ctx_len": 8192,
-    "release_date": "2025-02"
-  },
-  {
-    "name": "Moonlight 16B A3B",
     "family": "kimi",
     "params_b": 15.96,
     "layers": 27,
