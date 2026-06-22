@@ -121,6 +121,17 @@
     "release_date": "2026-06"
   },
   {
+    "name": "GLM 5.2",
+    "family": "glm",
+    "params_b": 753.33,
+    "layers": 78,
+    "num_q_heads": 64,
+    "num_kv_heads": 64,
+    "head_dim": 192,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-06"
+  },
+  {
     "name": "MiniMax M3 MXFP8",
     "family": "minimax",
     "params_b": 440.28,
@@ -154,6 +165,28 @@
     "release_date": "2026-06"
   },
   {
+    "name": "MolmoMotion 4B H3 F30",
+    "family": "olmo",
+    "params_b": 4.851,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 6144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "MolmoMotion 4B H1 F32",
+    "family": "olmo",
+    "params_b": 4.851,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 6144,
+    "release_date": "2026-06"
+  },
+  {
     "name": "gemma 4 31B it qat q4 0 unquantized assistant",
     "family": "gemma",
     "params_b": 0.47,
@@ -161,7 +194,7 @@
     "num_q_heads": 32,
     "num_kv_heads": 16,
     "head_dim": 256,
-    "default_ctx_len": 131072,
+    "default_ctx_len": 262144,
     "release_date": "2026-05"
   },
   {
@@ -172,7 +205,7 @@
     "num_q_heads": 16,
     "num_kv_heads": 8,
     "head_dim": 256,
-    "default_ctx_len": 131072,
+    "default_ctx_len": 262144,
     "release_date": "2026-05"
   },
   {
@@ -253,6 +286,28 @@
     "release_date": "2026-05"
   },
   {
+    "name": "LFM2.5 ColBERT 350M",
+    "family": "liquid",
+    "params_b": 0.353,
+    "layers": 16,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-05"
+  },
+  {
+    "name": "LFM2.5 Embedding 350M",
+    "family": "liquid",
+    "params_b": 0.354,
+    "layers": 16,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-05"
+  },
+  {
     "name": "EMO",
     "family": "olmo",
     "params_b": 13.569,
@@ -322,28 +377,6 @@
     "name": "MolmoAct2 BimanualYAM",
     "family": "olmo",
     "params_b": 5.485,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 16384,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "MolmoAct2 DROID",
-    "family": "olmo",
-    "params_b": 5.485,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 16384,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "MolmoAct2 Pretrain",
-    "family": "olmo",
-    "params_b": 4.865,
     "layers": 36,
     "num_q_heads": 32,
     "num_kv_heads": 8,
@@ -598,28 +631,6 @@
     "family": "liquid",
     "params_b": 1.17,
     "layers": 16,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-01"
-  },
-  {
-    "name": "LFM2.5 1.2B Instruct",
-    "family": "liquid",
-    "params_b": 1.17,
-    "layers": 16,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-01"
-  },
-  {
-    "name": "LFM2 2.6B Transcript",
-    "family": "liquid",
-    "params_b": 2.569,
-    "layers": 30,
     "num_q_heads": 32,
     "num_kv_heads": 8,
     "head_dim": 64,
