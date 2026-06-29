@@ -121,6 +121,182 @@
     "release_date": "2026-06"
   },
   {
+    "name": "Qwen3 ForcedAligner 0.6B hf",
+    "family": "qwen",
+    "params_b": 0.918,
+    "layers": 28,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 8192,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "Qwen AgentWorld 35B A3B",
+    "family": "qwen",
+    "params_b": 34.661,
+    "layers": 40,
+    "num_q_heads": 16,
+    "num_kv_heads": 2,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "eagle3 gemma4 12b ttt7",
+    "family": "deepseek",
+    "params_b": 2.362,
+    "layers": 1,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "eagle3 qwen3 14b ttt7",
+    "family": "deepseek",
+    "params_b": 2.054,
+    "layers": 1,
+    "num_q_heads": 40,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 40960,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "eagle3 qwen3 8b ttt7",
+    "family": "deepseek",
+    "params_b": 1.547,
+    "layers": 1,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 40960,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "eagle3 qwen3 4b ttt7",
+    "family": "deepseek",
+    "params_b": 0.927,
+    "layers": 1,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 40960,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "dflash gemma4 12b block7",
+    "family": "deepseek",
+    "params_b": 3.296,
+    "layers": 5,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "dflash qwen3 14b block7",
+    "family": "deepseek",
+    "params_b": 3.338,
+    "layers": 5,
+    "num_q_heads": 40,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 40960,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "dflash qwen3 8b block7",
+    "family": "deepseek",
+    "params_b": 2.293,
+    "layers": 5,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 40960,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "dflash qwen3 4b block7",
+    "family": "deepseek",
+    "params_b": 1.315,
+    "layers": 5,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 40960,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "dspark gemma4 12b block7",
+    "family": "deepseek",
+    "params_b": 3.43,
+    "layers": 5,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "dspark qwen3 14b block7",
+    "family": "deepseek",
+    "params_b": 3.416,
+    "layers": 5,
+    "num_q_heads": 40,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 40960,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "dspark qwen3 8b block7",
+    "family": "deepseek",
+    "params_b": 2.371,
+    "layers": 5,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 40960,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "dspark qwen3 4b block7",
+    "family": "deepseek",
+    "params_b": 1.393,
+    "layers": 5,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 40960,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "DeepSeek V4 Pro DSpark",
+    "family": "deepseek",
+    "params_b": 889.485,
+    "layers": 61,
+    "num_q_heads": 128,
+    "num_kv_heads": 1,
+    "head_dim": 512,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "DeepSeek V4 Flash DSpark",
+    "family": "deepseek",
+    "params_b": 165.265,
+    "layers": 43,
+    "num_q_heads": 64,
+    "num_kv_heads": 1,
+    "head_dim": 512,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-06"
+  },
+  {
     "name": "GLM 5.2",
     "family": "glm",
     "params_b": 753.33,
@@ -161,6 +337,160 @@
     "num_q_heads": 64,
     "num_kv_heads": 64,
     "head_dim": 112,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "LFM2.5 230M",
+    "family": "liquid",
+    "params_b": 0.23,
+    "layers": 14,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "LFM2.5 230M Base",
+    "family": "liquid",
+    "params_b": 0.23,
+    "layers": 14,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "tmax 27b",
+    "family": "olmo",
+    "params_b": 0.003,
+    "layers": 64,
+    "num_q_heads": 24,
+    "num_kv_heads": 4,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "qwen35 9b openthoughts",
+    "family": "olmo",
+    "params_b": 8.954,
+    "layers": 32,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "qwen35 9b terminaltraj",
+    "family": "olmo",
+    "params_b": 8.954,
+    "layers": 32,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "qwen35 9b cli gym",
+    "family": "olmo",
+    "params_b": 8.954,
+    "layers": 32,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "qwen35 9b swesmith",
+    "family": "olmo",
+    "params_b": 8.954,
+    "layers": 32,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "qwen35 9b termigen",
+    "family": "olmo",
+    "params_b": 8.954,
+    "layers": 32,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "qwen35 9b endless",
+    "family": "olmo",
+    "params_b": 8.954,
+    "layers": 32,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "tmax sft 8b",
+    "family": "olmo",
+    "params_b": 8.191,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 40960,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "tmax 8b",
+    "family": "olmo",
+    "params_b": 8.191,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 40960,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "tmax 4b",
+    "family": "olmo",
+    "params_b": 4.206,
+    "layers": 32,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "tmax 2b",
+    "family": "olmo",
+    "params_b": 1.882,
+    "layers": 24,
+    "num_q_heads": 8,
+    "num_kv_heads": 2,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "tmax 9b",
+    "family": "olmo",
+    "params_b": 8.954,
+    "layers": 32,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 256,
     "default_ctx_len": 262144,
     "release_date": "2026-06"
   },
@@ -308,83 +638,6 @@
     "release_date": "2026-05"
   },
   {
-    "name": "EMO",
-    "family": "olmo",
-    "params_b": 13.569,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 16,
-    "head_dim": 128,
-    "default_ctx_len": 4096,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "StdMoE 1b14b 1T EmoAnnealed",
-    "family": "olmo",
-    "params_b": 13.569,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 16,
-    "head_dim": 128,
-    "default_ctx_len": 4096,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "StdMoE 1b14b 1T Preanneal",
-    "family": "olmo",
-    "params_b": 13.569,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 16,
-    "head_dim": 128,
-    "default_ctx_len": 4096,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "MolmoAct2 Think LIBERO",
-    "family": "olmo",
-    "params_b": 5.491,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 16384,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "MolmoAct2 LIBERO",
-    "family": "olmo",
-    "params_b": 5.485,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 16384,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "MolmoAct2 SO100 101",
-    "family": "olmo",
-    "params_b": 5.485,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 16384,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "MolmoAct2 BimanualYAM",
-    "family": "olmo",
-    "params_b": 5.485,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 16384,
-    "release_date": "2026-05"
-  },
-  {
     "name": "Mistral Medium 3.5 128B EAGLE",
     "family": "mistral",
     "params_b": 128.0,
@@ -401,39 +654,6 @@
     "params_b": 861.608,
     "layers": 61,
     "num_q_heads": 128,
-    "num_kv_heads": 1,
-    "head_dim": 512,
-    "default_ctx_len": 1048576,
-    "release_date": "2026-04"
-  },
-  {
-    "name": "DeepSeek V4 Pro Base",
-    "family": "deepseek",
-    "params_b": 1600.79,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 1,
-    "head_dim": 512,
-    "default_ctx_len": 1048576,
-    "release_date": "2026-04"
-  },
-  {
-    "name": "DeepSeek V4 Flash",
-    "family": "deepseek",
-    "params_b": 158.069,
-    "layers": 43,
-    "num_q_heads": 64,
-    "num_kv_heads": 1,
-    "head_dim": 512,
-    "default_ctx_len": 1048576,
-    "release_date": "2026-04"
-  },
-  {
-    "name": "DeepSeek V4 Flash Base",
-    "family": "deepseek",
-    "params_b": 292.021,
-    "layers": 43,
-    "num_q_heads": 64,
     "num_kv_heads": 1,
     "head_dim": 512,
     "default_ctx_len": 1048576,
@@ -583,17 +803,6 @@
     "release_date": "2026-01"
   },
   {
-    "name": "DeepSeek OCR 2",
-    "family": "deepseek",
-    "params_b": 3.389,
-    "layers": 12,
-    "num_q_heads": 10,
-    "num_kv_heads": 10,
-    "head_dim": 128,
-    "default_ctx_len": 8192,
-    "release_date": "2026-01"
-  },
-  {
     "name": "GLM OCR",
     "family": "glm",
     "params_b": 1.325,
@@ -625,28 +834,6 @@
     "head_dim": 112,
     "default_ctx_len": 262144,
     "release_date": "2026-01"
-  },
-  {
-    "name": "LFM2.5 1.2B Thinking",
-    "family": "liquid",
-    "params_b": 1.17,
-    "layers": 16,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-01"
-  },
-  {
-    "name": "DeepSeek V3.2",
-    "family": "deepseek",
-    "params_b": 685.397,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-12"
   },
   {
     "name": "GLM 4.7",
@@ -781,28 +968,6 @@
     "release_date": "2025-11"
   },
   {
-    "name": "DeepSeek V3.2 Speciale",
-    "family": "deepseek",
-    "params_b": 685.397,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-11"
-  },
-  {
-    "name": "DeepSeek Math V2",
-    "family": "deepseek",
-    "params_b": 685.397,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-11"
-  },
-  {
     "name": "WebVIA Agent",
     "family": "glm",
     "params_b": 10.293,
@@ -858,17 +1023,6 @@
     "release_date": "2025-10"
   },
   {
-    "name": "DeepSeek OCR",
-    "family": "deepseek",
-    "params_b": 3.336,
-    "layers": 12,
-    "num_q_heads": 10,
-    "num_kv_heads": 10,
-    "head_dim": 128,
-    "default_ctx_len": 8192,
-    "release_date": "2025-10"
-  },
-  {
     "name": "MiniMax M2",
     "family": "minimax",
     "params_b": 228.704,
@@ -880,39 +1034,6 @@
     "release_date": "2025-10"
   },
   {
-    "name": "DeepSeek V3.2 Exp",
-    "family": "deepseek",
-    "params_b": 685.397,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-09"
-  },
-  {
-    "name": "DeepSeek V3.2 Exp Base",
-    "family": "deepseek",
-    "params_b": 685.397,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-09"
-  },
-  {
-    "name": "DeepSeek V3.1 Terminus",
-    "family": "deepseek",
-    "params_b": 684.531,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-09"
-  },
-  {
     "name": "Kimi K2 Instruct 0905",
     "family": "kimi",
     "params_b": 1026.471,
@@ -922,28 +1043,6 @@
     "head_dim": 112,
     "default_ctx_len": 262144,
     "release_date": "2025-09"
-  },
-  {
-    "name": "DeepSeek V3.1",
-    "family": "deepseek",
-    "params_b": 684.531,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-08"
-  },
-  {
-    "name": "DeepSeek V3.1 Base",
-    "family": "deepseek",
-    "params_b": 684.531,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 56,
-    "default_ctx_len": 163840,
-    "release_date": "2025-08"
   },
   {
     "name": "MiniMax M1 40k hf",
@@ -1054,17 +1153,6 @@
     "head_dim": 128,
     "default_ctx_len": 131072,
     "release_date": "2025-06"
-  },
-  {
-    "name": "DeepSeek R1 0528 Qwen3 8B",
-    "family": "deepseek",
-    "params_b": 8.191,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 131072,
-    "release_date": "2025-05"
   },
   {
     "name": "Kimi VL A3B Thinking",
