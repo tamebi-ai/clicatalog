@@ -1,5 +1,16 @@
 [
   {
+    "name": "Leanstral 1.5 119B A6B",
+    "family": "mistral",
+    "params_b": 119.0,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 32,
+    "head_dim": 128,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-07"
+  },
+  {
     "name": "diffusiongemma 26B A4B it",
     "family": "gemma",
     "params_b": 25.824,
@@ -484,39 +495,6 @@
     "release_date": "2026-06"
   },
   {
-    "name": "tmax 9b",
-    "family": "olmo",
-    "params_b": 8.954,
-    "layers": 32,
-    "num_q_heads": 16,
-    "num_kv_heads": 4,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "MolmoMotion 4B H3 F30",
-    "family": "olmo",
-    "params_b": 4.851,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 6144,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "MolmoMotion 4B H1 F32",
-    "family": "olmo",
-    "params_b": 4.851,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 6144,
-    "release_date": "2026-06"
-  },
-  {
     "name": "gemma 4 31B it qat q4 0 unquantized assistant",
     "family": "gemma",
     "params_b": 0.47,
@@ -525,28 +503,6 @@
     "num_kv_heads": 16,
     "head_dim": 256,
     "default_ctx_len": 262144,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "gemma 4 26B A4B it qat q4 0 unquantized assistant",
-    "family": "gemma",
-    "params_b": 0.42,
-    "layers": 4,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "gemma 4 E4B it qat q4 0 unquantized assistant",
-    "family": "gemma",
-    "params_b": 0.079,
-    "layers": 4,
-    "num_q_heads": 4,
-    "num_kv_heads": 2,
-    "head_dim": 256,
-    "default_ctx_len": 131072,
     "release_date": "2026-05"
   },
   {
@@ -1005,17 +961,6 @@
     "family": "mistral",
     "params_b": 8.918,
     "layers": 34,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 262144,
-    "release_date": "2025-10"
-  },
-  {
-    "name": "Ministral 3 14B Instruct 2512",
-    "family": "mistral",
-    "params_b": 13.945,
-    "layers": 40,
     "num_q_heads": 32,
     "num_kv_heads": 8,
     "head_dim": 128,
