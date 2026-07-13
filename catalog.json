@@ -506,6 +506,17 @@
     "release_date": "2026-05"
   },
   {
+    "name": "gemma 4 26B A4B it qat q4 0 unquantized assistant",
+    "family": "gemma",
+    "params_b": 0.42,
+    "layers": 4,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-05"
+  },
+  {
     "name": "Qwen Image Bench",
     "family": "qwen",
     "params_b": 27.357,
