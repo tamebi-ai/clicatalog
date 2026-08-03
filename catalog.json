@@ -11,6 +11,72 @@
     "release_date": "2026-07"
   },
   {
+    "name": "DeepSeek V4 Flash 0731",
+    "family": "deepseek",
+    "params_b": 304.18,
+    "layers": 43,
+    "num_q_heads": 64,
+    "num_kv_heads": 1,
+    "head_dim": 512,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-07"
+  },
+  {
+    "name": "LFM2.5 Encoder 230M",
+    "family": "liquid",
+    "params_b": 0.23,
+    "layers": 14,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-07"
+  },
+  {
+    "name": "LFM2.5 Encoder 350M",
+    "family": "liquid",
+    "params_b": 0.354,
+    "layers": 16,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-07"
+  },
+  {
+    "name": "LFM2.5 Encoder 350M Prompt Router",
+    "family": "liquid",
+    "params_b": 0.355,
+    "layers": 16,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-07"
+  },
+  {
+    "name": "LFM2.5 Encoder 350M Policy Linter",
+    "family": "liquid",
+    "params_b": 0.355,
+    "layers": 16,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-07"
+  },
+  {
+    "name": "LFM2.5 Encoder 350M Diffusion",
+    "family": "liquid",
+    "params_b": 0.354,
+    "layers": 16,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-07"
+  },
+  {
     "name": "diffusiongemma 26B A4B it",
     "family": "gemma",
     "params_b": 25.824,
@@ -288,7 +354,7 @@
   {
     "name": "DeepSeek V4 Pro DSpark",
     "family": "deepseek",
-    "params_b": 889.485,
+    "params_b": 1650.498,
     "layers": 61,
     "num_q_heads": 128,
     "num_kv_heads": 1,
@@ -341,6 +407,17 @@
     "release_date": "2026-06"
   },
   {
+    "name": "Kimi K3",
+    "family": "kimi",
+    "params_b": 2779.932,
+    "layers": 93,
+    "num_q_heads": 96,
+    "num_kv_heads": 96,
+    "head_dim": 74,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-06"
+  },
+  {
     "name": "Kimi K2.7 Code",
     "family": "kimi",
     "params_b": 1058.589,
@@ -367,6 +444,17 @@
     "family": "liquid",
     "params_b": 0.23,
     "layers": 14,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-06"
+  },
+  {
+    "name": "LFM2.5 Encoder 350M PII Detector",
+    "family": "liquid",
+    "params_b": 0.355,
+    "layers": 16,
     "num_q_heads": 16,
     "num_kv_heads": 8,
     "head_dim": 64,
@@ -583,28 +671,6 @@
     "release_date": "2026-05"
   },
   {
-    "name": "LFM2.5 ColBERT 350M",
-    "family": "liquid",
-    "params_b": 0.353,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "LFM2.5 Embedding 350M",
-    "family": "liquid",
-    "params_b": 0.354,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-05"
-  },
-  {
     "name": "Mistral Medium 3.5 128B EAGLE",
     "family": "mistral",
     "params_b": 128.0,
@@ -613,17 +679,6 @@
     "num_kv_heads": 8,
     "head_dim": 128,
     "default_ctx_len": 262144,
-    "release_date": "2026-04"
-  },
-  {
-    "name": "DeepSeek V4 Pro",
-    "family": "deepseek",
-    "params_b": 861.608,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 1,
-    "head_dim": 512,
-    "default_ctx_len": 1048576,
     "release_date": "2026-04"
   },
   {
@@ -660,17 +715,6 @@
     "release_date": "2026-04"
   },
   {
-    "name": "LFM2.5 VL 450M",
-    "family": "liquid",
-    "params_b": 0.449,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-04"
-  },
-  {
     "name": "Mistral Medium 3.5 128B",
     "family": "mistral",
     "params_b": 127.704,
@@ -704,28 +748,6 @@
     "release_date": "2026-03"
   },
   {
-    "name": "LFM2.5 350M Base",
-    "family": "liquid",
-    "params_b": 0.354,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-03"
-  },
-  {
-    "name": "LFM2.5 350M",
-    "family": "liquid",
-    "params_b": 0.354,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-03"
-  },
-  {
     "name": "GLM 5",
     "family": "glm",
     "params_b": 753.864,
@@ -745,17 +767,6 @@
     "num_kv_heads": 8,
     "head_dim": 128,
     "default_ctx_len": 196608,
-    "release_date": "2026-02"
-  },
-  {
-    "name": "LFM2 24B A2B",
-    "family": "liquid",
-    "params_b": 23.844,
-    "layers": 40,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
     "release_date": "2026-02"
   },
   {
@@ -860,7 +871,7 @@
   {
     "name": "MiniMax M2.1",
     "family": "minimax",
-    "params_b": 228.704,
+    "params_b": 228.69,
     "layers": 62,
     "num_q_heads": 48,
     "num_kv_heads": 8,
@@ -981,7 +992,7 @@
   {
     "name": "MiniMax M2",
     "family": "minimax",
-    "params_b": 228.704,
+    "params_b": 228.69,
     "layers": 62,
     "num_q_heads": 48,
     "num_kv_heads": 8,
@@ -1078,17 +1089,6 @@
     "release_date": "2025-06"
   },
   {
-    "name": "SynLogic 7B",
-    "family": "minimax",
-    "params_b": 7.616,
-    "layers": 28,
-    "num_q_heads": 28,
-    "num_kv_heads": 4,
-    "head_dim": 128,
-    "default_ctx_len": 131072,
-    "release_date": "2025-06"
-  },
-  {
     "name": "Kimi VL A3B Thinking 2506",
     "family": "kimi",
     "params_b": 16.408,
@@ -1131,16 +1131,5 @@
     "head_dim": 128,
     "default_ctx_len": 131072,
     "release_date": "2025-04"
-  },
-  {
-    "name": "Moonlight 16B A3B Instruct",
-    "family": "kimi",
-    "params_b": 15.96,
-    "layers": 27,
-    "num_q_heads": 16,
-    "num_kv_heads": 16,
-    "head_dim": 128,
-    "default_ctx_len": 8192,
-    "release_date": "2025-02"
   }
 ]
