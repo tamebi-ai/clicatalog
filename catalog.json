@@ -1,5 +1,27 @@
 [
   {
+    "name": "LFM2.5 2.6B Base",
+    "family": "liquid",
+    "params_b": 2.697,
+    "layers": 30,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-08"
+  },
+  {
+    "name": "Shieldstral 1.0 3B",
+    "family": "mistral",
+    "params_b": 3.849,
+    "layers": 26,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 262144,
+    "release_date": "2026-07"
+  },
+  {
     "name": "Leanstral 1.5 119B A6B",
     "family": "mistral",
     "params_b": 119.0,
@@ -19,6 +41,17 @@
     "num_kv_heads": 1,
     "head_dim": 512,
     "default_ctx_len": 1048576,
+    "release_date": "2026-07"
+  },
+  {
+    "name": "LFM2.5 2.6B",
+    "family": "liquid",
+    "params_b": 2.697,
+    "layers": 30,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 131072,
     "release_date": "2026-07"
   },
   {
@@ -420,7 +453,7 @@
   {
     "name": "Kimi K2.7 Code",
     "family": "kimi",
-    "params_b": 1058.589,
+    "params_b": 1026.879,
     "layers": 61,
     "num_q_heads": 64,
     "num_kv_heads": 64,
@@ -649,28 +682,6 @@
     "release_date": "2026-05"
   },
   {
-    "name": "LFM2.5 VL 1.6B Extract",
-    "family": "liquid",
-    "params_b": 1.597,
-    "layers": 16,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-05"
-  },
-  {
-    "name": "LFM2.5 1.2B JP 202606",
-    "family": "liquid",
-    "params_b": 1.17,
-    "layers": 16,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-05"
-  },
-  {
     "name": "Mistral Medium 3.5 128B EAGLE",
     "family": "mistral",
     "params_b": 128.0,
@@ -706,7 +717,7 @@
   {
     "name": "Kimi K2.6",
     "family": "kimi",
-    "params_b": 1058.589,
+    "params_b": 1026.879,
     "layers": 61,
     "num_q_heads": 64,
     "num_kv_heads": 64,
@@ -805,7 +816,7 @@
   {
     "name": "Kimi K2.5",
     "family": "kimi",
-    "params_b": 1058.589,
+    "params_b": 1026.879,
     "layers": 61,
     "num_q_heads": 64,
     "num_kv_heads": 64,
@@ -972,17 +983,6 @@
     "family": "mistral",
     "params_b": 3.849,
     "layers": 26,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 262144,
-    "release_date": "2025-10"
-  },
-  {
-    "name": "Ministral 3 8B Instruct 2512",
-    "family": "mistral",
-    "params_b": 8.918,
-    "layers": 34,
     "num_q_heads": 32,
     "num_kv_heads": 8,
     "head_dim": 128,
