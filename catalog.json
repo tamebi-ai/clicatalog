@@ -66,6 +66,17 @@
     "release_date": "2026-08"
   },
   {
+    "name": "Qwen3.8 Flash Next",
+    "family": "qwen",
+    "params_b": 180.0,
+    "layers": 48,
+    "num_q_heads": 24,
+    "num_kv_heads": 2,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-08"
+  },
+  {
     "name": "Qwen3.8 2.4T A95B",
     "family": "qwen",
     "params_b": 2446.183,
@@ -95,6 +106,50 @@
     "num_q_heads": 128,
     "num_kv_heads": 1,
     "head_dim": 512,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-08"
+  },
+  {
+    "name": "GLM 5.3 Flash BF16",
+    "family": "glm",
+    "params_b": 321.323,
+    "layers": 45,
+    "num_q_heads": 64,
+    "num_kv_heads": 64,
+    "head_dim": 64,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-08"
+  },
+  {
+    "name": "GLM 5.3 BF16",
+    "family": "glm",
+    "params_b": 753.33,
+    "layers": 78,
+    "num_q_heads": 64,
+    "num_kv_heads": 64,
+    "head_dim": 192,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-08"
+  },
+  {
+    "name": "GLM 5.3 Flash",
+    "family": "glm",
+    "params_b": 321.323,
+    "layers": 45,
+    "num_q_heads": 64,
+    "num_kv_heads": 64,
+    "head_dim": 64,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-08"
+  },
+  {
+    "name": "GLM 5.3",
+    "family": "glm",
+    "params_b": 753.33,
+    "layers": 78,
+    "num_q_heads": 64,
+    "num_kv_heads": 64,
+    "head_dim": 192,
     "default_ctx_len": 1048576,
     "release_date": "2026-08"
   },
@@ -316,17 +371,6 @@
     "num_kv_heads": 2,
     "head_dim": 256,
     "default_ctx_len": 131072,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "gemma 4 12B it qat q4 0 unquantized",
-    "family": "gemma",
-    "params_b": 11.96,
-    "layers": 48,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
     "release_date": "2026-06"
   },
   {
@@ -869,28 +913,6 @@
     "release_date": "2025-12"
   },
   {
-    "name": "GLM 4.6V",
-    "family": "glm",
-    "params_b": 107.711,
-    "layers": 46,
-    "num_q_heads": 96,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 131072,
-    "release_date": "2025-12"
-  },
-  {
-    "name": "GLM 4.6V Flash",
-    "family": "glm",
-    "params_b": 10.293,
-    "layers": 40,
-    "num_q_heads": 32,
-    "num_kv_heads": 2,
-    "head_dim": 128,
-    "default_ctx_len": 131072,
-    "release_date": "2025-12"
-  },
-  {
     "name": "MiniMax M2.1",
     "family": "minimax",
     "params_b": 228.69,
@@ -968,20 +990,9 @@
     "release_date": "2025-11"
   },
   {
-    "name": "WebVIA Agent",
-    "family": "glm",
-    "params_b": 10.293,
-    "layers": 40,
-    "num_q_heads": 32,
-    "num_kv_heads": 2,
-    "head_dim": 128,
-    "default_ctx_len": 65536,
-    "release_date": "2025-11"
-  },
-  {
     "name": "Kimi K2 Thinking",
     "family": "kimi",
-    "params_b": 1058.118,
+    "params_b": 1026.408,
     "layers": 61,
     "num_q_heads": 64,
     "num_kv_heads": 64,
