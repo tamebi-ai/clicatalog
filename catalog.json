@@ -99,6 +99,17 @@
     "release_date": "2026-08"
   },
   {
+    "name": "DeepSeek V4 Flash Vision Exp",
+    "family": "deepseek",
+    "params_b": 304.647,
+    "layers": 43,
+    "num_q_heads": 64,
+    "num_kv_heads": 1,
+    "head_dim": 512,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-08"
+  },
+  {
     "name": "DeepSeek V4 Pro 0813",
     "family": "deepseek",
     "params_b": 1650.498,
@@ -161,7 +172,7 @@
     "num_q_heads": 32,
     "num_kv_heads": 8,
     "head_dim": 64,
-    "default_ctx_len": 128000,
+    "default_ctx_len": 32768,
     "release_date": "2026-08"
   },
   {
@@ -528,17 +539,6 @@
     "release_date": "2026-06"
   },
   {
-    "name": "DeepSeek V4 Pro DSpark",
-    "family": "deepseek",
-    "params_b": 1650.498,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 1,
-    "head_dim": 512,
-    "default_ctx_len": 1048576,
-    "release_date": "2026-06"
-  },
-  {
     "name": "GLM 5.2",
     "family": "glm",
     "params_b": 753.33,
@@ -712,17 +712,6 @@
     "num_kv_heads": 8,
     "head_dim": 128,
     "default_ctx_len": 40960,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "tmax 4b",
-    "family": "olmo",
-    "params_b": 4.206,
-    "layers": 32,
-    "num_q_heads": 16,
-    "num_kv_heads": 4,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
     "release_date": "2026-06"
   },
   {
