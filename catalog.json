@@ -1,5 +1,16 @@
 [
   {
+    "name": "DeepSeek V4.1 Flash",
+    "family": "deepseek",
+    "params_b": 763.205,
+    "layers": 40,
+    "num_q_heads": 64,
+    "num_kv_heads": 1,
+    "head_dim": 512,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-09"
+  },
+  {
     "name": "tipsv1 g14 lowres",
     "family": "gemma",
     "params_b": 1.524,
@@ -374,17 +385,6 @@
     "release_date": "2026-06"
   },
   {
-    "name": "gemma 4 E4B it qat w4a16 ct",
-    "family": "gemma",
-    "params_b": 8.736,
-    "layers": 42,
-    "num_q_heads": 8,
-    "num_kv_heads": 2,
-    "head_dim": 256,
-    "default_ctx_len": 131072,
-    "release_date": "2026-06"
-  },
-  {
     "name": "Qwen3 ForcedAligner 0.6B hf",
     "family": "qwen",
     "params_b": 0.918,
@@ -520,17 +520,6 @@
     "name": "dspark qwen3 8b block7",
     "family": "deepseek",
     "params_b": 2.371,
-    "layers": 5,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 40960,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "dspark qwen3 4b block7",
-    "family": "deepseek",
-    "params_b": 1.393,
     "layers": 5,
     "num_q_heads": 32,
     "num_kv_heads": 8,
