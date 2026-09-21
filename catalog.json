@@ -1,5 +1,16 @@
 [
   {
+    "name": "Qwen Image 2.1 PE I2I",
+    "family": "qwen",
+    "params_b": 9.41,
+    "layers": 32,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 256,
+    "default_ctx_len": 262144,
+    "release_date": "2026-09"
+  },
+  {
     "name": "DeepSeek V4.1 Flash",
     "family": "deepseek",
     "params_b": 763.205,
