@@ -1,5 +1,16 @@
 [
   {
+    "name": "DiarizationLM Gemma 4 E4B v1",
+    "family": "gemma",
+    "params_b": 7.996,
+    "layers": 42,
+    "num_q_heads": 8,
+    "num_kv_heads": 2,
+    "head_dim": 256,
+    "default_ctx_len": 131072,
+    "release_date": "2026-10"
+  },
+  {
     "name": "Qwen Image 2.1 PE I2I",
     "family": "qwen",
     "params_b": 9.41,
@@ -385,28 +396,6 @@
     "release_date": "2026-06"
   },
   {
-    "name": "gemma 4 31B it qat w4a16 ct",
-    "family": "gemma",
-    "params_b": 33.598,
-    "layers": 60,
-    "num_q_heads": 32,
-    "num_kv_heads": 16,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "gemma 4 E2B it qat w4a16 ct",
-    "family": "gemma",
-    "params_b": 5.566,
-    "layers": 35,
-    "num_q_heads": 8,
-    "num_kv_heads": 1,
-    "head_dim": 256,
-    "default_ctx_len": 131072,
-    "release_date": "2026-06"
-  },
-  {
     "name": "Qwen3 ForcedAligner 0.6B hf",
     "family": "qwen",
     "params_b": 0.918,
@@ -694,17 +683,6 @@
   },
   {
     "name": "tmax sft 8b",
-    "family": "olmo",
-    "params_b": 8.191,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 40960,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "tmax 8b",
     "family": "olmo",
     "params_b": 8.191,
     "layers": 36,
