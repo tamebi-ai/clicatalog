@@ -1,14 +1,47 @@
 [
   {
-    "name": "DiarizationLM Gemma 4 E4B v1",
+    "name": "d1 3B w8a8",
+    "family": "liquid",
+    "params_b": 3.125,
+    "layers": 30,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 32768,
+    "release_date": "2026-10"
+  },
+  {
+    "name": "d1 omni 600M",
+    "family": "liquid",
+    "params_b": 0.587,
+    "layers": 16,
+    "num_q_heads": 16,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 128000,
+    "release_date": "2026-10"
+  },
+  {
+    "name": "d1 3B",
+    "family": "liquid",
+    "params_b": 3.123,
+    "layers": 30,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 32768,
+    "release_date": "2026-10"
+  },
+  {
+    "name": "embeddinggemma 2",
     "family": "gemma",
-    "params_b": 7.996,
-    "layers": 42,
-    "num_q_heads": 8,
+    "params_b": 0.744,
+    "layers": 24,
+    "num_q_heads": 4,
     "num_kv_heads": 2,
     "head_dim": 256,
-    "default_ctx_len": 131072,
-    "release_date": "2026-10"
+    "default_ctx_len": 262144,
+    "release_date": "2026-09"
   },
   {
     "name": "Qwen Image 2.1 PE I2I",
@@ -264,6 +297,72 @@
     "release_date": "2026-08"
   },
   {
+    "name": "Llama 3 Blama 8B",
+    "family": "olmo",
+    "params_b": 8.251,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 8192,
+    "release_date": "2026-08"
+  },
+  {
+    "name": "Llama 3 Blama 8B Stage1",
+    "family": "olmo",
+    "params_b": 8.251,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 8192,
+    "release_date": "2026-08"
+  },
+  {
+    "name": "Bwen 8B",
+    "family": "olmo",
+    "params_b": 8.313,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 32768,
+    "release_date": "2026-08"
+  },
+  {
+    "name": "Bwen 8B Stage1",
+    "family": "olmo",
+    "params_b": 8.313,
+    "layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "default_ctx_len": 32768,
+    "release_date": "2026-08"
+  },
+  {
+    "name": "Bolmo 1B Stage1",
+    "family": "olmo",
+    "params_b": 1.469,
+    "layers": 16,
+    "num_q_heads": 16,
+    "num_kv_heads": 16,
+    "head_dim": 128,
+    "default_ctx_len": 4096,
+    "release_date": "2026-08"
+  },
+  {
+    "name": "Bolmo 7B Stage1",
+    "family": "olmo",
+    "params_b": 7.633,
+    "layers": 32,
+    "num_q_heads": 32,
+    "num_kv_heads": 32,
+    "head_dim": 128,
+    "default_ctx_len": 65536,
+    "release_date": "2026-08"
+  },
+  {
     "name": "Shieldstral 1.0 3B",
     "family": "mistral",
     "params_b": 3.849,
@@ -352,17 +451,6 @@
     "release_date": "2026-07"
   },
   {
-    "name": "LFM2.5 Encoder 350M Diffusion",
-    "family": "liquid",
-    "params_b": 0.354,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-07"
-  },
-  {
     "name": "diffusiongemma 26B A4B it",
     "family": "gemma",
     "params_b": 25.824,
@@ -376,7 +464,7 @@
   {
     "name": "gemma 4 12B it qat w4a16 ct",
     "family": "gemma",
-    "params_b": 13.307,
+    "params_b": 12.966,
     "layers": 48,
     "num_q_heads": 16,
     "num_kv_heads": 8,
@@ -594,17 +682,6 @@
     "release_date": "2026-06"
   },
   {
-    "name": "LFM2.5 230M",
-    "family": "liquid",
-    "params_b": 0.23,
-    "layers": 14,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-06"
-  },
-  {
     "name": "tmax 27b",
     "family": "olmo",
     "params_b": 0.003,
@@ -624,72 +701,6 @@
     "num_kv_heads": 4,
     "head_dim": 256,
     "default_ctx_len": 262144,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "qwen35 9b terminaltraj",
-    "family": "olmo",
-    "params_b": 8.954,
-    "layers": 32,
-    "num_q_heads": 16,
-    "num_kv_heads": 4,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "qwen35 9b cli gym",
-    "family": "olmo",
-    "params_b": 8.954,
-    "layers": 32,
-    "num_q_heads": 16,
-    "num_kv_heads": 4,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "qwen35 9b swesmith",
-    "family": "olmo",
-    "params_b": 8.954,
-    "layers": 32,
-    "num_q_heads": 16,
-    "num_kv_heads": 4,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "qwen35 9b termigen",
-    "family": "olmo",
-    "params_b": 8.954,
-    "layers": 32,
-    "num_q_heads": 16,
-    "num_kv_heads": 4,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "qwen35 9b endless",
-    "family": "olmo",
-    "params_b": 8.954,
-    "layers": 32,
-    "num_q_heads": 16,
-    "num_kv_heads": 4,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "tmax sft 8b",
-    "family": "olmo",
-    "params_b": 8.191,
-    "layers": 36,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 40960,
     "release_date": "2026-06"
   },
   {
@@ -966,17 +977,6 @@
     "head_dim": 112,
     "default_ctx_len": 262144,
     "release_date": "2025-11"
-  },
-  {
-    "name": "Ministral 3 3B Instruct 2512",
-    "family": "mistral",
-    "params_b": 3.849,
-    "layers": 26,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 262144,
-    "release_date": "2025-10"
   },
   {
     "name": "MiniMax M2",
