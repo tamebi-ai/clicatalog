@@ -1,5 +1,38 @@
 [
   {
+    "name": "DeepSeek V4.1 Flash 1017",
+    "family": "deepseek",
+    "params_b": 763.205,
+    "layers": 40,
+    "num_q_heads": 64,
+    "num_kv_heads": 1,
+    "head_dim": 512,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-10"
+  },
+  {
+    "name": "LFM2.5 24B A2B",
+    "family": "liquid",
+    "params_b": 23.972,
+    "layers": 40,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 131072,
+    "release_date": "2026-10"
+  },
+  {
+    "name": "LFM2.5 24B A2B Base",
+    "family": "liquid",
+    "params_b": 23.972,
+    "layers": 40,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 131072,
+    "release_date": "2026-10"
+  },
+  {
     "name": "d1 3B w8a8",
     "family": "liquid",
     "params_b": 3.125,
@@ -429,28 +462,6 @@
     "release_date": "2026-07"
   },
   {
-    "name": "LFM2.5 Encoder 350M Prompt Router",
-    "family": "liquid",
-    "params_b": 0.355,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-07"
-  },
-  {
-    "name": "LFM2.5 Encoder 350M Policy Linter",
-    "family": "liquid",
-    "params_b": 0.355,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-07"
-  },
-  {
     "name": "diffusiongemma 26B A4B it",
     "family": "gemma",
     "params_b": 25.824,
@@ -616,17 +627,6 @@
     "release_date": "2026-06"
   },
   {
-    "name": "dspark qwen3 8b block7",
-    "family": "deepseek",
-    "params_b": 2.371,
-    "layers": 5,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 40960,
-    "release_date": "2026-06"
-  },
-  {
     "name": "GLM 5.2",
     "family": "glm",
     "params_b": 753.33,
@@ -687,17 +687,6 @@
     "params_b": 0.003,
     "layers": 64,
     "num_q_heads": 24,
-    "num_kv_heads": 4,
-    "head_dim": 256,
-    "default_ctx_len": 262144,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "qwen35 9b openthoughts",
-    "family": "olmo",
-    "params_b": 8.954,
-    "layers": 32,
-    "num_q_heads": 16,
     "num_kv_heads": 4,
     "head_dim": 256,
     "default_ctx_len": 262144,
@@ -917,50 +906,6 @@
     "family": "mistral",
     "params_b": 675.0,
     "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 192,
-    "default_ctx_len": 294912,
-    "release_date": "2025-11"
-  },
-  {
-    "name": "Mistral Large 3 675B Instruct 2512 NVFP4",
-    "family": "mistral",
-    "params_b": 675.0,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 192,
-    "default_ctx_len": 294912,
-    "release_date": "2025-11"
-  },
-  {
-    "name": "Devstral 2 123B Instruct 2512",
-    "family": "mistral",
-    "params_b": 125.026,
-    "layers": 88,
-    "num_q_heads": 96,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 262144,
-    "release_date": "2025-11"
-  },
-  {
-    "name": "Devstral Small 2 24B Instruct 2512",
-    "family": "mistral",
-    "params_b": 24.011,
-    "layers": 40,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 393216,
-    "release_date": "2025-11"
-  },
-  {
-    "name": "Mistral Large 3 675B Instruct 2512 Eagle",
-    "family": "mistral",
-    "params_b": 675.0,
-    "layers": 1,
     "num_q_heads": 128,
     "num_kv_heads": 128,
     "head_dim": 192,
