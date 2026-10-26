@@ -11,6 +11,28 @@
     "release_date": "2026-10"
   },
   {
+    "name": "MiniMax M3.1 Flash",
+    "family": "minimax",
+    "params_b": 220.491,
+    "layers": 60,
+    "num_q_heads": 64,
+    "num_kv_heads": 4,
+    "head_dim": 128,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-10"
+  },
+  {
+    "name": "LFM2.5 24B A2B DSpark",
+    "family": "liquid",
+    "params_b": 0.328,
+    "layers": 5,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 64,
+    "default_ctx_len": 131072,
+    "release_date": "2026-10"
+  },
+  {
     "name": "LFM2.5 24B A2B",
     "family": "liquid",
     "params_b": 23.972,
@@ -451,17 +473,6 @@
     "release_date": "2026-07"
   },
   {
-    "name": "LFM2.5 Encoder 350M",
-    "family": "liquid",
-    "params_b": 0.354,
-    "layers": 16,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-07"
-  },
-  {
     "name": "diffusiongemma 26B A4B it",
     "family": "gemma",
     "params_b": 25.824,
@@ -640,7 +651,7 @@
   {
     "name": "MiniMax M3 MXFP8",
     "family": "minimax",
-    "params_b": 440.28,
+    "params_b": 427.04,
     "layers": 60,
     "num_q_heads": 64,
     "num_kv_heads": 4,
@@ -678,17 +689,6 @@
     "num_q_heads": 64,
     "num_kv_heads": 64,
     "head_dim": 112,
-    "default_ctx_len": 262144,
-    "release_date": "2026-06"
-  },
-  {
-    "name": "tmax 27b",
-    "family": "olmo",
-    "params_b": 0.003,
-    "layers": 64,
-    "num_q_heads": 24,
-    "num_kv_heads": 4,
-    "head_dim": 256,
     "default_ctx_len": 262144,
     "release_date": "2026-06"
   },
@@ -794,7 +794,7 @@
   {
     "name": "MiniMax M2.5",
     "family": "minimax",
-    "params_b": 228.704,
+    "params_b": 228.69,
     "layers": 62,
     "num_q_heads": 48,
     "num_kv_heads": 8,
@@ -937,7 +937,7 @@
   {
     "name": "Kimi K2 Instruct 0905",
     "family": "kimi",
-    "params_b": 1026.471,
+    "params_b": 1026.408,
     "layers": 61,
     "num_q_heads": 64,
     "num_kv_heads": 64,
@@ -981,7 +981,7 @@
   {
     "name": "Kimi K2 Base",
     "family": "kimi",
-    "params_b": 1026.471,
+    "params_b": 1026.408,
     "layers": 61,
     "num_q_heads": 64,
     "num_kv_heads": 64,
@@ -991,17 +991,6 @@
   },
   {
     "name": "MiniMax M1 80k",
-    "family": "minimax",
-    "params_b": 456.09,
-    "layers": 80,
-    "num_q_heads": 64,
-    "num_kv_heads": 8,
-    "head_dim": 128,
-    "default_ctx_len": 10240000,
-    "release_date": "2025-06"
-  },
-  {
-    "name": "MiniMax M1 40k",
     "family": "minimax",
     "params_b": 456.09,
     "layers": 80,
