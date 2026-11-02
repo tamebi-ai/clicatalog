@@ -1,5 +1,16 @@
 [
   {
+    "name": "Mistral Large 4 1T A52B NVFP4",
+    "family": "mistral",
+    "params_b": 52.0,
+    "layers": 72,
+    "num_q_heads": 64,
+    "num_kv_heads": 64,
+    "head_dim": 128,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-10"
+  },
+  {
     "name": "DeepSeek V4.1 Flash 1017",
     "family": "deepseek",
     "params_b": 763.205,
@@ -22,6 +33,83 @@
     "release_date": "2026-10"
   },
   {
+    "name": "LFM3 1.7B Base",
+    "family": "liquid",
+    "params_b": 1.729,
+    "layers": 24,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 128,
+    "default_ctx_len": 262144,
+    "release_date": "2026-10"
+  },
+  {
+    "name": "LFM3 VL 2B NVFP4",
+    "family": "liquid",
+    "params_b": 1.352,
+    "layers": 24,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 128,
+    "default_ctx_len": 128000,
+    "release_date": "2026-10"
+  },
+  {
+    "name": "LFM3 1.7B NVFP4",
+    "family": "liquid",
+    "params_b": 1.163,
+    "layers": 24,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 128,
+    "default_ctx_len": 262144,
+    "release_date": "2026-10"
+  },
+  {
+    "name": "d1 Omni 2B",
+    "family": "liquid",
+    "params_b": 2.167,
+    "layers": 24,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 128,
+    "default_ctx_len": 128000,
+    "release_date": "2026-10"
+  },
+  {
+    "name": "d1 2B",
+    "family": "liquid",
+    "params_b": 1.918,
+    "layers": 24,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 128,
+    "default_ctx_len": 128000,
+    "release_date": "2026-10"
+  },
+  {
+    "name": "LFM3 1.7B",
+    "family": "liquid",
+    "params_b": 1.729,
+    "layers": 24,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 128,
+    "default_ctx_len": 262144,
+    "release_date": "2026-10"
+  },
+  {
+    "name": "LFM3 Omni 2B",
+    "family": "liquid",
+    "params_b": 2.167,
+    "layers": 24,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 128,
+    "default_ctx_len": 128000,
+    "release_date": "2026-10"
+  },
+  {
     "name": "LFM2.5 24B A2B DSpark",
     "family": "liquid",
     "params_b": 0.328,
@@ -30,6 +118,17 @@
     "num_kv_heads": 8,
     "head_dim": 64,
     "default_ctx_len": 131072,
+    "release_date": "2026-10"
+  },
+  {
+    "name": "LFM3 VL 2B",
+    "family": "liquid",
+    "params_b": 1.918,
+    "layers": 24,
+    "num_q_heads": 16,
+    "num_kv_heads": 4,
+    "head_dim": 128,
+    "default_ctx_len": 128000,
     "release_date": "2026-10"
   },
   {
@@ -86,6 +185,17 @@
     "head_dim": 64,
     "default_ctx_len": 32768,
     "release_date": "2026-10"
+  },
+  {
+    "name": "Mistral Large 4 1T A52B",
+    "family": "mistral",
+    "params_b": 52.0,
+    "layers": 72,
+    "num_q_heads": 64,
+    "num_kv_heads": 64,
+    "head_dim": 64,
+    "default_ctx_len": 1048576,
+    "release_date": "2026-09"
   },
   {
     "name": "embeddinggemma 2",
@@ -297,61 +407,6 @@
     "release_date": "2026-08"
   },
   {
-    "name": "LFM2.5 VL 3B",
-    "family": "liquid",
-    "params_b": 3.123,
-    "layers": 30,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 32768,
-    "release_date": "2026-08"
-  },
-  {
-    "name": "LFM2.5 2.6B DSpark",
-    "family": "liquid",
-    "params_b": 0.328,
-    "layers": 5,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-08"
-  },
-  {
-    "name": "LFM2.5 8B A1B DSpark",
-    "family": "liquid",
-    "params_b": 0.328,
-    "layers": 5,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-08"
-  },
-  {
-    "name": "LFM2.5 1.2B Instruct DSpark",
-    "family": "liquid",
-    "params_b": 0.296,
-    "layers": 5,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-08"
-  },
-  {
-    "name": "LFM2.5 2.6B Base",
-    "family": "liquid",
-    "params_b": 2.697,
-    "layers": 30,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
-    "release_date": "2026-08"
-  },
-  {
     "name": "Llama 3 Blama 8B",
     "family": "olmo",
     "params_b": 8.251,
@@ -448,28 +503,6 @@
     "num_kv_heads": 1,
     "head_dim": 512,
     "default_ctx_len": 1048576,
-    "release_date": "2026-07"
-  },
-  {
-    "name": "LFM2.5 2.6B",
-    "family": "liquid",
-    "params_b": 2.697,
-    "layers": 30,
-    "num_q_heads": 32,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 131072,
-    "release_date": "2026-07"
-  },
-  {
-    "name": "LFM2.5 Encoder 230M",
-    "family": "liquid",
-    "params_b": 0.23,
-    "layers": 14,
-    "num_q_heads": 16,
-    "num_kv_heads": 8,
-    "head_dim": 64,
-    "default_ctx_len": 128000,
     "release_date": "2026-07"
   },
   {
@@ -889,28 +922,6 @@
     "head_dim": 128,
     "default_ctx_len": 196608,
     "release_date": "2025-12"
-  },
-  {
-    "name": "Mistral Large 3 675B Base 2512",
-    "family": "mistral",
-    "params_b": 675.0,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 192,
-    "default_ctx_len": 294912,
-    "release_date": "2025-11"
-  },
-  {
-    "name": "Mistral Large 3 675B Instruct 2512",
-    "family": "mistral",
-    "params_b": 675.0,
-    "layers": 61,
-    "num_q_heads": 128,
-    "num_kv_heads": 128,
-    "head_dim": 192,
-    "default_ctx_len": 294912,
-    "release_date": "2025-11"
   },
   {
     "name": "Kimi K2 Thinking",
